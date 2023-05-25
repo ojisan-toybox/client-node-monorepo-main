@@ -1,4 +1,7 @@
 {
   "name": "client-node-monorepo-main",
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
