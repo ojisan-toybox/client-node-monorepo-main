@@ -1,6 +1,7 @@
 {
   "name": "server",
   "packageManager": "yarn@3.5.1",
+  "type": "module",
   "dependencies": {
     "fastify": "^4.17.0",
     "lib_a": "1.0.0"
