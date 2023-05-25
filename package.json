@@ -12,6 +12,9 @@
     "_server": "yarn workspace server ",
     "server:build": "yarn run _server build",
     "server:dev": "yarn run _server dev",
-    "server:start": "yarn run _server start"
+    "server:start": "yarn run _server start",
+    "client": "yarn workspace client",
+    "client:build": "yarn run client build",
+    "client:dev": "yarn run client dev"
   }
 }

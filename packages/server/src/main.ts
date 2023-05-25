@@ -1,10 +1,12 @@
 import Fastify from "fastify";
+import { helloWorld } from "lib_a";
 
 const fastify = Fastify({
   logger: true,
 });
 // Declare a route
 fastify.get("/", function (_, reply) {
+  helloWorld();
   reply.send({ hello: "world" });
 });
 
