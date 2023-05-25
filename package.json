@@ -2,6 +2,7 @@
   "name": "client-node-monorepo-main",
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
+    "@tsconfig/strictest": "^2.0.1",
     "typescript": "^5.0.4"
   },
   "workspaces": [
@@ -9,6 +10,8 @@
   ],
   "scripts": {
     "_server": "yarn workspace server ",
-    "server:dev": "yarn run _server dev"
+    "server:build": "yarn run _server build",
+    "server:dev": "yarn run _server dev",
+    "server:start": "yarn run _server start"
   }
 }

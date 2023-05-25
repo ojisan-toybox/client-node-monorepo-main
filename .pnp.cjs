@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@tsconfig/strictest", "npm:2.0.1"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
           "linkType": "SOFT"\
@@ -639,6 +640,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tsconfig-node16-npm-1.0.4-b7cb87d859-2023197859.zip/node_modules/@tsconfig/node16/",\
           "packageDependencies": [\
             ["@tsconfig/node16", "npm:1.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tsconfig/strictest", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/@tsconfig-strictest-npm-2.0.1-422e2dbef4-3a9b913e06.zip/node_modules/@tsconfig/strictest/",\
+          "packageDependencies": [\
+            ["@tsconfig/strictest", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1335,6 +1345,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["client-node-monorepo-main", "workspace:."],\
+            ["@tsconfig/strictest", "npm:2.0.1"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
           "linkType": "SOFT"\
