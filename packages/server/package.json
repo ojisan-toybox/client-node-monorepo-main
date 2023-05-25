@@ -1,4 +1,14 @@
 {
   "name": "server",
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "dependencies": {
+    "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "dev": "ts-node src/main.ts"
+  }
 }
